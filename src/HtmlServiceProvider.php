@@ -173,7 +173,7 @@ class HtmlServiceProvider extends ServiceProvider
 
             $fieldBuilder = new FieldBuilder(
                 $app['form'],
-                $this->theme,
+                $this->getTheme(),
                 $app['translator']
             );
 

@@ -17,7 +17,7 @@ class FieldBuilder
      * The FormBuilder class required to generate controls
      * (inputs, selects, radios, etc.)
      *
-     * @var \Styde\Html\FormBuilder
+     * @var \Collective\Html\FormBuilder
      */
     protected $form;
     /**
@@ -68,11 +68,11 @@ class FieldBuilder
      * This is similar to a factory class, but this one generates HTML instead
      * of objects.
      *
-     * @param \Styde\Html\FormBuilder $form
+     * @param \Collective\Html\FormBuilder $form
      * @param \Styde\Html\Theme $theme
      * @param \Illuminate\Translation\Translator $lang
      */
-    public function __construct(FormBuilder $form, Theme $theme, Lang $lang)
+    public function __construct(\Collective\Html\FormBuilder $form, Theme $theme, Lang $lang)
     {
         $this->form = $form;
         $this->theme = $theme;

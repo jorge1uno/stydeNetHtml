@@ -25,7 +25,7 @@ class FormBuilder extends CollectiveFormBuilder
      * Creates a new Form Builder class. This extends from the Collective
      * Form Builder but adds a couple of extra functions.
      *
-     * @param \Styde\Html\HtmlBuilder $html
+     * @param \Collective\Html\HtmlBuilder $html
      * @param \Illuminate\Contracts\Routing\UrlGenerator $url
      * @param string $csrfToken
      * @param \Styde\Html\Theme $theme

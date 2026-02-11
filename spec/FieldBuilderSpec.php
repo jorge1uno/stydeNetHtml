@@ -4,7 +4,7 @@ namespace spec\Styde\Html;
 
 use Styde\Html\Theme;
 use Prophecy\Argument;
-use Styde\Html\FormBuilder;
+use Collective\Html\FormBuilder;
 use PhpSpec\ObjectBehavior;
 use Illuminate\Support\MessageBag;
 use Styde\Html\Access\AccessHandler;

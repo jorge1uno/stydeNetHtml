@@ -1,5 +1,5 @@
 {
-    "name": "styde/html",
+    "name": "jorge1uno/stydenethtml",
     "description": "Build form fields, menus, alert messages and other view components quickly",
     "license": "MIT",
     "authors": [
@@ -9,12 +9,14 @@
         }
     ],
     "require": {
-        "php": "^7.2|^8.0",
-        "laravelcollective/html": "^6.0",
-        "illuminate/translation": "^6.0|^7.0|^8.0"
+        "php": "^8.4",
+        "nekhbet/laravel-collective-html": "^1.0.0",
+        "illuminate/translation": "^v12.51.0",
+        "illuminate/filesystem": "^v12.51.0",
+        "illuminate/session": "v12.51.0"
     },
     "require-dev": {
-        "phpspec/phpspec": "~7.0"
+        "phpspec/phpspec": "^8.2.0"
     },
     "autoload": {
         "psr-4": {

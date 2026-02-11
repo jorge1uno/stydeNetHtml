@@ -4,7 +4,7 @@ namespace spec\Styde\Html;
 
 use Styde\Html\Theme;
 use PhpSpec\ObjectBehavior;
-use Styde\Html\HtmlBuilder;
+use Collective\Html\HtmlBuilder;
 use Prophecy\Argument as Arg;
 use Illuminate\Routing\UrlGenerator;
 use \Illuminate\Contracts\Http\Kernel;
@@ -21,7 +21,7 @@ class FormBuilderSpec extends ObjectBehavior
 
     function it_is_initializable()
     {
-        $this->shouldHaveType('Styde\Html\FormBuilder');
+        $this->shouldHaveType('Collective\Html\FormBuilder');
     }
 
     function it_adds_a_novalidate_option($html)
