@@ -12,8 +12,7 @@
         "php": "^8.4",
         "nekhbet/laravel-collective-html": "^1.0.0",
         "illuminate/translation": "^v12.0",
-        "illuminate/filesystem": "^v12.0",
-        "illuminate/session": "v12.0"
+        "illuminate/filesystem": "^v12.0"
     },
     "require-dev": {
         "phpspec/phpspec": "^8.2.0"
